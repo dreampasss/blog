@@ -1,0 +1,56 @@
+.navbar .logo {
+	border-radius: 50%;
+}
+.search-box input{
+	border-radius: 1.25rem!important;	
+}
+
+.content__default:not(.custom) {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 0rem 2.5rem!important;
+}
+.content__default:not(.custom) > h1:first-child, .content__default:not(.custom) > h2:first-child, .content__default:not(.custom) > h3:first-child, .content__default:not(.custom) > h4:first-child, .content__default:not(.custom) > h5:first-child, .content__default:not(.custom) > h6:first-child {
+    margin-top: -2.5rem!important;
+    margin-bottom: 1rem;
+}
+.content__default:not(.custom) > h1, .content__default:not(.custom) > h2, .content__default:not(.custom) > h3, .content__default:not(.custom) > h4, .content__default:not(.custom) > h5, .content__default:not(.custom) > h6 {
+    margin-top: -3.1rem;
+    padding-top: 3.6rem!important;
+    margin-bottom: 0;
+}
+.content__default:not(.custom) > h1:first-child + p, .content__default:not(.custom) > h2:first-child + p, .content__default:not(.custom) > h3:first-child + p, .content__default:not(.custom) > h4:first-child + p, .content__default:not(.custom) > h5:first-child + p, .content__default:not(.custom) > h6:first-child + p, .content__default:not(.custom) > h1:first-child + pre, .content__default:not(.custom) > h2:first-child + pre, .content__default:not(.custom) > h3:first-child + pre, .content__default:not(.custom) > h4:first-child + pre, .content__default:not(.custom) > h5:first-child + pre, .content__default:not(.custom) > h6:first-child + pre, .content__default:not(.custom) > h1:first-child + .custom-block, .content__default:not(.custom) > h2:first-child + .custom-block, .content__default:not(.custom) > h3:first-child + .custom-block, .content__default:not(.custom) > h4:first-child + .custom-block, .content__default:not(.custom) > h5:first-child + .custom-block, .content__default:not(.custom) > h6:first-child + .custom-block {
+    margin-top: 0rem!important;
+}
+
+// -------------- vssue start --------------
+.vssue :not(.vssue-comment-content) a {
+    cursor: pointer;
+    font-weight: 500;
+    color: #79a5c8;
+    text-decoration: none;
+}
+
+.vssue .vssue-status{
+	color: #79a5c8;
+}
+
+.vssue .vssue-button:not(:disabled).vssue-button-primary {
+    color: #79a5c8;
+    border-color: #79a5c8;
+}
+.vssue .vssue-icon {
+	fill: #79a5c8!important;
+}
+// -------------- vssue end --------------
+@media (max-width: 419px) {
+	.home-blog .hero{
+		height :35vh!important;
+	}
+}
+
+// 导航栏下拉分组标题
+.nav-item .dropdown-wrapper .nav-dropdown li h4 {
+  font-weight: 900;
+  color: #000
+}
