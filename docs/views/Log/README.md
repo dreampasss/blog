@@ -8,5 +8,5 @@ categories:
 ---
 
 # 日志
-![An image](../../.vuepress/public/picture.jpg)
-<!-- <img class="medium-zoom-image" :src="$withBase('/picture.jpg')" alt="foo"> -->
+![An image](/picture.jpg)
+<!-- <img class="medium-zoom-image" :src="$withBase('/picture.jpg')" alt="foo"> --> 

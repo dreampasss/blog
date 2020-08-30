@@ -1,7 +1,8 @@
 
 const DOCUMENT_FRONNTEND = '/views/document/frontEnd/'    // 前端文档
 const DOCUMENT_BACKEND = '/views/document/backEnd/'       // 后端文档
-const DOCUMENT_TOOLS = '/views/document/softwareTools/'       // 软件工具文档
+const DOCUMENT_TOOLS = '/views/document/softwareTools/'   // 软件工具文档
+const OTHER = '/views/other/'                             // 其他
 
 module.exports = [
   { "text": "首页", "link": "/", "icon": "reco-home" },
@@ -38,7 +39,9 @@ module.exports = [
   {
     text: '其他', "icon": "iconfont icon-gengduomore10",
     items: [
-      { text: '传送门', link: '/views/other/', "icon": "iconfont icon-chuansong-shi" }]
+      { text: '传送门', link: `${OTHER}fly/`, "icon": "iconfont icon-chuansong-shi" },
+      { text: '博主', link: `${OTHER}author/author`, "icon": "iconfont icon-gz" }
+    ]
   },
 ]
 

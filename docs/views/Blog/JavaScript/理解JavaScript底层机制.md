@@ -87,10 +87,11 @@ console.log(3)
 3. AJAX
 4. Promise
 
-##  事件循环（event loop)
+##  事件循环（event loop）
 
 &emsp;&emsp;事件循环就是 JavaScript 引擎不断执行栈和任务队列。不过在任务队列中又划分为宏任务和微任务。
+![An image](/assets/JavaScript/eventLoop.png)
+<!-- <img :src="$withBase('/assets/JavaScript/eventLoop.png')" alt="foo"> -->
 
-<img :src="$withBase('/assets/JavaScript/eventLoop.png')" alt="foo">
 
 ## 内存机制
